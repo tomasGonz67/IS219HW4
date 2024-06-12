@@ -10,10 +10,11 @@ body {
 }
 
 
-/* Applying the golden ratio for heading sizes */
-:root{
-
+:root {
+    --spacing: 10px; /* Define the spacing variable */
+    --icon-size: 1.5em; /* Define the icon size variable */
 }
+
 
 h1 {
     font-size: 2.618em; /* Font size following the golden ratio */
@@ -34,6 +35,33 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 600;
 }
+
+ul.contact-links {
+    display: flex;
+    gap: calc(var(--spacing) / 2); /* Set gap using spacing variable */
+    list-style-type: none; /* Ensure no bullets or markers */
+    list-style: none; /* Double ensure no list styles */
+    padding: 0;
+    margin: 0;
+}
+
+    ul.contact-links li {
+        display: inline-block; /* Display list items inline */
+        margin: 0; /* Ensure no additional margins */
+
+    }
+
+    ul.contact-links a {
+        text-decoration: none;
+        color: #007bff;
+        font-size: var(--icon-size); /* Use icon size variable */
+        padding: calc(var(--spacing) / 2); /* Padding around the icons */
+        transition: color 0.3s;
+    }
+
+        ul.contact-links a:hover {
+            color: #0056b3;
+        }
 
 /* Setting properties of the container and applying the golden ratio for width and padding */
 .container {
@@ -73,6 +101,7 @@ a {
 /* Styling for unordered lists */
 ul {
     list-style-type: none;
+    list-style:none;
 }
 
 .mePic {
@@ -84,11 +113,7 @@ ul {
     margin: auto; /* Center the image */
 }
 
-/* Styling for list items */
-li:before {
-    content: "\2713\0020";
-    color: #5C5651;
-}
+
 
 /* Setting properties for sections in the main content */
 main section:not(:last-of-type) {
