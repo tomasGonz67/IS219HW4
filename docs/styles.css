@@ -188,6 +188,7 @@ main section:not(:last-of-type) {
         /* Remove padding */
         width: 100%;
         /* Full width of the viewport */
+
     }
 
     header {
@@ -200,32 +201,11 @@ main section:not(:last-of-type) {
         width: 100%;
         max-width: 1420px;
     }
+
 }
 /* Print Styles */
 @media print {
-    body {
-        background-image: none;
-        color: black;
-    }
-
-    .container {
-        box-shadow: none;
-    }
-
-    a {
-        color: black;
-        text-decoration: underline;
-    }
-
-        a[href^="mailto:"]:after {
-            content: " (" attr(href) ")";
-        }
-
-        a[href^="tel:"]:after {
-            content: " (" attr(href) ")";
-        }
-
-    .print-link {
+    ul.contact-links {
         display: none;
     }
 }
