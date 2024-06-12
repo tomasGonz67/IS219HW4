@@ -11,6 +11,10 @@ body {
 
 
 /* Applying the golden ratio for heading sizes */
+:root{
+
+}
+
 h1 {
     font-size: 2.618em; /* Font size following the golden ratio */
     font-family: "Roboto Condensed", sans-serif;
@@ -33,6 +37,8 @@ h3 {
 
 /* Setting properties of the container and applying the golden ratio for width and padding */
 .container {
+    display:flex;
+    flex-direction:row-reverse;
     width: 61.8%; /* Width following the golden ratio */
     max-width: 1600px; /* Max-width for larger screens */
     margin: 0 auto;
@@ -67,6 +73,15 @@ a {
 /* Styling for unordered lists */
 ul {
     list-style-type: none;
+}
+
+.mePic {
+    width: 175px; /* Adjust the size as needed */
+    height: 200px; /* Ensure this is equal to the width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    display: block; /* Removes any potential inline spacing issues */
+    margin: auto; /* Center the image */
 }
 
 /* Styling for list items */
