@@ -40,6 +40,40 @@ h3 {
     font-weight: 600;
 }
 
+
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+    max-width: 100%;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #011e3a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+}
+
+    .skill i {
+        margin-right: 10px;
+    }
+
+    .skill:hover {
+        transform: scale(1.05);
+        background-color: #0056b3;
+    }
 ul.contact-links {
     display: flex;
     gap: calc(var(--spacing) / 2); /* Set gap using spacing variable */
