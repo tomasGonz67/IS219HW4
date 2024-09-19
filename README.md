@@ -11,3 +11,4 @@ I have also changed the over all lay out of design using flex and grid. I also a
 ![Screenshot 2024-06-11 234239](https://github.com/tomasGonz67/IS219HW4/assets/89033647/c2304e02-d7dd-4c15-b232-bbe25d8d6742)
 ![Screenshot 2024-06-11 234300](https://github.com/tomasGonz67/IS219HW4/assets/89033647/20db80fb-5a66-4dd4-8b5f-daa8bdd763e8)
 ![Screenshot 2024-06-11 234625](https://github.com/tomasGonz67/IS219HW4/assets/89033647/7f83a452-98a3-47b3-a937-cb3229177cce)
+![Screenshot 2024-09-19 142359](https://github.com/user-attachments/assets/9c69308c-ade8-4ece-b0bd-cbb0813103ce)
